@@ -1,3 +1,5 @@
+import math
+
 def list_function():
     print('\n#########################################################################')
     print('This function will request integers/floats as input, one at a time.\n')
@@ -95,6 +97,16 @@ def list_function():
         string = ', '.join([str(entry) for entry in entry_list])
         print('Modes:', string)
 
+    var_sum = 0
+    for item in ol:
+        var_sum += (item - average)**2
+    variance = var_sum/length
+    print('Variance:',variance)
+
+    st_dev = round(math.sqrt(variance)*1000)/1000
+    print('Standart Deviation:',st_dev)
+
+    return ol
 
 
 if __name__ == "__main__":
