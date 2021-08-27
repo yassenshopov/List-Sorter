@@ -9,23 +9,14 @@ The program only requies the math library, which comes pre-installed on Python3
 
 ## Usage
 
-```python
-import foobar
+This function will request integers/floats as input, one at a time.
 
-# returns 'words'
-foobar.pluralize('word')
+After you have entered all your inputs, this function will sort the list 
+and present the average, median, and mean values.
 
-# returns 'geese'
-foobar.pluralize('goose')
+Once you have entered all your inputs, simply press ENTER to get the result.
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+The outputs will be presented in the end of the program, in the terminal window.
 
 ## License
 [MIT](./LICENSE.txt)
